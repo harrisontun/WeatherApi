@@ -18,3 +18,8 @@ Returns an HTML page with weather data such as temperature, precipitation, etc.<
 Will fetch a log of the last 10 requests</br>
 Example: `http://127.0.0.1:5000/requests`</br>
 Returns a log of the last 10 requests including status, error message, timestamp, etc.</br>
+
+# Notes
+The Location input must be a valid location ie. "Denver", "Dallas,TX".<br/>
+Internation locations are not covered
+Favicon requests `/favicon.ico` are ignored
