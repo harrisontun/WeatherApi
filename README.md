@@ -5,7 +5,7 @@ Simple Flask-based REST API that will fetch weather data from Noaa.gov </br>
 `pip install flask geopy noaa-sdk`</br>
 
 # Usage
-Start the server by running</br>
+Start the server by running 
 `python Weather.py`
 
 # Endpoints
