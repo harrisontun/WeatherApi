@@ -1,20 +1,20 @@
 # WeatherApi
-Simple Flask-based REST API that will fetch weather data from Noaa.gov
+Simple Flask-based REST API that will fetch weather data from Noaa.gov </br>
 
 # Installation
-`pip install flask geopy noaa-sdk`
+`pip install flask geopy noaa-sdk`</br>
 
 # Usage
-Start the server by running
+Start the server by running</br>
 `python Weather.py`
 
 # Endpoints
-`/<location>` 
-Will fetch and display the current weather at that location.
-Example: `http://127.0.0.1:5000/Miami`
-Returns an HTML page with weather data such as temperature, precipitation, etc.
+`/<location>` </br>
+Will fetch and display the current weather at that location.</br>
+Example: `http://127.0.0.1:5000/Miami`</br>
+Returns an HTML page with weather data such as temperature, precipitation, etc.</br>
 
-/requests 
-Will fetch a log of the last 10 requests
-Example: `http://127.0.0.1:5000/requests`
-Returns a log of the last 10 requests including status, error message, timestamp, etc.
+`/requests` </br>
+Will fetch a log of the last 10 requests</br>
+Example: `http://127.0.0.1:5000/requests`</br>
+Returns a log of the last 10 requests including status, error message, timestamp, etc.</br>
