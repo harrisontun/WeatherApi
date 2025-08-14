@@ -21,5 +21,5 @@ Returns a log of the last 10 requests including status, error message, timestamp
 
 # Notes
 The Location input must be a valid location ie. "Denver", "Dallas,TX".<br/>
-Internation locations are not covered
+Internation locations are not covered. <br/>
 Favicon requests `/favicon.ico` are ignored
