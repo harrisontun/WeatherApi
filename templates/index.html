@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Today's Weather - {{ location }}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #d7e1ec, #f5f7fa);
+            color: #333;
+            margin: 0;
+            padding: 2em;
+            line-height: 1.6;
+        }
+
+        .weather-container {
+            max-width: 600px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            padding: 2em;
+            margin: auto;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            font-weight: 500;
+            margin: 0.5em 0;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-top: 1.5em;
+            background-color: #f0f4f8;
+            padding: 1em;
+            border-left: 5px solid #3498db;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Today's Weather in {{ location }}</h1>
+        <h2>🌡️ Temperature: {{ temperature }} {{ unit }}</h2>
+        <h2>💨 Wind Speed: {{ windSpeed }}</h2>
+        <h2>🌧️ Chance of Precipitation: {{ precipitation }}%</h2>
+        <p>📝 Forecast: {{ forecast }}</p>
+    </div>
+</body>
+</html>
