@@ -1,2 +1,4 @@
 # WeatherApi
-Simple RESTful microservice that will show you the weather at /&lt;location>
+Simple Flask-based REST API that will fetch weather data from Noaa.gov
+
+
